@@ -3,5 +3,6 @@
 /// More dartdocs go here.
 library;
 
-
 // TODO: Export any libraries intended for clients of this package.
+export 'src/btree.dart';
+export 'src/entry.dart';
