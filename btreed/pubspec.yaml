@@ -1,0 +1,14 @@
+name: btreed
+description: Fast and disk-based b-tree implementation for Dart.
+version: 1.0.0
+repository: https://github.com/tomasweigenast/btreed
+issues: https://github.com/tomasweigenast/btreed/issues
+
+environment:
+  sdk: ^3.4.4
+
+dependencies:
+
+dev_dependencies:
+  lint: ^2.0.0
+  test: ^1.24.0
