@@ -2,7 +2,7 @@ import 'dart:typed_data';
 
 import 'package:btreed/src/btree.dart';
 import 'package:btreed/src/entry.dart';
-import 'package:btreed/src/impl/page_manager.dart';
+import 'package:btreed/src/impl/page_manager/page_manager.dart';
 
 final class BTreeImpl implements BTree {
   final int _order; // tree order
@@ -17,7 +17,7 @@ final class BTreeImpl implements BTree {
 
   @override
   void close() {
-    // TODO: implement close
+    _pageManager.close();
   }
 
   @override

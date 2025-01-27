@@ -2,7 +2,7 @@ import 'dart:typed_data';
 
 import 'package:btreed/src/entry.dart';
 import 'package:btreed/src/impl/btree_impl.dart';
-import 'package:btreed/src/impl/page_manager.dart';
+import 'package:btreed/src/impl/page_manager/page_manager.dart';
 
 abstract interface class BTree {
   factory BTree({required String filePath, int order = 3}) => BTreeImpl(
